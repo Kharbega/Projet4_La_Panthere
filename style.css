@@ -6,7 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+li{
+    list-style: none;
+}
+h1{
+    color: #F3976C;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -25,6 +30,9 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+.row.tight-width-whitespace.black-background>.col-sm-12{
+    background-color: #c45623;
 }
 
 .bloc {
@@ -91,8 +99,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background-size: cover;
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .b-parallax {
@@ -216,22 +224,8 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+a{
+    color: black;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -285,6 +279,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    font-weight: 600;
 }
 
 .navbar {
@@ -302,13 +297,17 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 95px;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    /* min-width: 13px; */
+    /* height: 50%; */
+    /* width: 107px; */
+    height: 198px;
+    /* object-fit: cover; */
 }
 
 .nav-center .navbar-brand img {
@@ -649,9 +648,9 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: system-ui;
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -677,7 +676,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+    color: black;
 }
 
 .tight-width-whitespace {
@@ -702,6 +702,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -727,7 +728,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: white;
 }
 
 .icons {
@@ -775,17 +776,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:white;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    /* box-shadow: 3px 1px 2px #c27956; */
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    /* background: #c27956!important; */
     color: #FFFFFF!important;
+    background-color: #edb69c;
 }
 
 .ltc-white {
@@ -805,7 +808,7 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: #F3976C;
     border-color: #364577!important;
 }
 

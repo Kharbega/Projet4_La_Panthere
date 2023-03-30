@@ -1785,7 +1785,9 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    /* text-decoration: none; */
+    padding: 0;
 }
 
 ol ol,
@@ -2304,7 +2306,8 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        /* background-color: #8a6d3b; */
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -3689,7 +3692,7 @@ textarea.input-lg {
 .btn.focus,
 .btn:focus,
 .btn:hover {
-    color: #333;
+    color: black;
     text-decoration: none
 }
 
