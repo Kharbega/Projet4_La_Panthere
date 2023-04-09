@@ -100,7 +100,7 @@ a:hover {
 
 .texture-paper::before {
     background-size: cover;
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .b-parallax {
