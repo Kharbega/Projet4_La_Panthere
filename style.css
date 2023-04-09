@@ -141,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: ;
 }
 
 .d-bloc .a-btn:hover,
@@ -160,7 +160,9 @@ a:hover {
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
+.d-bloc .icon-mf:hover{
+    color: rgb(15, 15, 190);
+}
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -476,6 +478,11 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: rgb(29, 155, 240);
+}
+.icon-mf{
+    font-size: 30px;
+    color: white;
 }
 
 .icon-lg {
