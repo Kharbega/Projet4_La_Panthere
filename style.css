@@ -169,10 +169,7 @@ padding-top: 100px;
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
+
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
@@ -181,6 +178,13 @@ padding-top: 100px;
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+.d-bloc a:hover .icon-sm,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-xl,.d-bloc a:hover .icon-mf
+{
+    color:black;
 }
 /* .d-bloc .icon-mf:hover{
     color: rgb(15, 15, 190);
@@ -328,11 +332,7 @@ a{
 }
 
 .navbar-brand img[src$=svg] {
-    /* min-width: 13px; */
-    /* height: 50%; */
-    /* width: 107px; */
     height: 198px;
-    /* object-fit: cover; */
 }
 
 .nav-center .navbar-brand img {
@@ -818,7 +818,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     /* background: #c27956!important; */
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
     background-color: #edb69c;
 }
 
