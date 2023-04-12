@@ -32,7 +32,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 .row.tight-width-whitespace.black-background>.col-sm-12{
-    background-color:#624404;
+    /* background-color:#624404; */
 }
 .row-contact{
     display: flex;
@@ -117,11 +117,14 @@ padding-top: 100px;
     right: 0;
 }
 
-.texture-paper::before {
+.texture-paper_.b-parallax ::before {
+    background-size: cover; 
+    background-image: url("img/image-de-presentation.webp"); 
+}
+#bloc-5-cta {
     background-size: cover;
     background-image: url("img/image-de-presentation.webp");
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -160,7 +163,7 @@ padding-top: 100px;
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white ;
+    color: #5b80e9;
 }
 
 .d-bloc .a-btn:hover,
@@ -179,9 +182,9 @@ padding-top: 100px;
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-.d-bloc .icon-mf:hover{
+/* .d-bloc .icon-mf:hover{
     color: rgb(15, 15, 190);
-}
+} */
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -301,6 +304,7 @@ a{
 #bloc-1-hero h1 {
     font-size: 32px;
     font-weight: 600;
+    background-color: burlywood;
 }
 
 .navbar {
@@ -501,7 +505,7 @@ button {
 }
 .icon-mf{
     font-size: 30px;
-    color: white;
+    color: #5b80e9;
 }
 
 .icon-lg {
@@ -763,7 +767,7 @@ h4 {
 }
 
 .white {
-    color: cornsilk !important;;
+    color: #000 !important;
 }
 
 .portfolio-thumb {
@@ -794,7 +798,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+  background-image: url(img/agence-la-panthere.webp);
 }
 
 .bgc-atomic-tangerine {
@@ -802,7 +806,7 @@ h4 {
 }
 
 .tc-white {
-    color:cornsilk;
+    /* color: #3c763d; */
     font-weight: 500;
 }
 
@@ -840,19 +844,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    /* background-image: url("img/agence-la-panthere.jpg"); */
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -896,6 +900,7 @@ h4 {
     }
     .b-parallax {
         background-attachment: scroll;
+        /* border: cadetblue; */
     }
     .page-container,
     #hero-bloc {
