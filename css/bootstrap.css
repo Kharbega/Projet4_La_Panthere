@@ -2016,7 +2016,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
 }
 
 .col-lg-1,
@@ -2309,7 +2309,7 @@ pre code {
     }
     .col-sm-12 {
         width: 100%;
-        /* background-color: #8a6d3b; */
+        /* background-color: #E0AC52; */
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -3200,7 +3200,7 @@ input[type=search] {
     -webkit-appearance: none
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-pixel-ratio:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
